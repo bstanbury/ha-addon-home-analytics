@@ -1,0 +1,10 @@
+{
+  "name":"Home Analytics Dashboard","version":"1.0.0","slug":"home_analytics",
+  "description":"Trend analysis for energy, climate, presence, sleep quality, and device reliability.",
+  "url":"https://github.com/bstanbury/ha-addon-home-analytics",
+  "arch":["aarch64","amd64","armhf","armv7","i386"],
+  "startup":"application","boot":"auto","init":false,"host_network":true,
+  "options":{"ha_url":"http://localhost:8123","ha_token":"","api_port":8095},
+  "schema":{"ha_url":"str","ha_token":"str","api_port":"int"},
+  "panel_icon":"mdi:chart-line"
+}
